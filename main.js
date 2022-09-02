@@ -10,7 +10,7 @@ let likeGlyph = document.querySelectorAll('.like-glyph')
 
 likeGlyph.forEach.apply(addEventListener('click', function(event) {
   event.preventDefault()
-  alert('♥')
+  alert('❤️')
 
   if (event.target.innerHTML=== EMPTY_HEART) {
     mimicServerCall()
